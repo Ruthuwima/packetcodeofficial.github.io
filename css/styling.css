@@ -1,0 +1,102 @@
+body {
+    /* background-image: linear-gradient( rgb(3, 1, 1), rgba(12, 1, 1, 0.89)), url(land.jpeg); */
+    background: url(land.jpeg);
+    height: 100%;
+}
+.main-space {
+    background-color: white;
+    margin-top: 3%;
+    padding-bottom: 2%;    
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+.navbar {
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;    
+    border-bottom: 1px solid #293233;
+    background-color: #293233;
+}
+.navbar a {
+    color: #f2f2f2;
+}
+.side-menu {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.main-title {
+    margin-top: 5%;
+}
+.main-content {
+    margin-top: 3%;    
+}
+.side-menu ul {
+    border-radius: 5px;
+}
+.side-menu ul li.active {
+    border: none;    
+    border-left: 5px solid #337ab7;
+    background-color: #f2f2f2;
+    color: #293233;
+}
+.side-menu ul li {
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;    
+}
+.side-menu ul a {
+    text-decoration: none;
+    color: #293233
+}
+.side-menu ul a li {
+    text-decoration: none;
+    color: #293233
+}   
+.container .row .panel {
+    margin-top: 20%;
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-top: 8%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+.container .row .panel .panel-heading{
+    text-align: center;
+    margin-bottom: 8%;
+}
+p.student-code {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1.5%;
+    padding-left: 5%;
+}
+.row img.student-img {
+    width: 100%;
+    height: 160px;
+    border: 1px solid grey;
+}
+.row .student-caption {
+    line-height: 2em;
+}
+.management-pane {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;    
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.upper-pane {
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+.select2-container .select2-selection--single{
+    height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+         border: 1px solid #ccc !important; 
+     border-radius: 0px !important; 
+}

@@ -1,0 +1,108 @@
+#portfolio {
+	padding: 80px 0;
+	background: #ffffff; 
+	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+}
+.categories {
+	padding-bottom: 30px;
+	text-align: center;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin-left: 20px;
+}
+ol.type li a {
+	background: #7bc3d1;
+	color: #fff;
+	padding: 6px 14px;
+}
+ol.type li a.active {
+	background: #121d1f;
+	color: #fff;
+}
+ol.type li a:hover {
+	background: #121d1f;
+	color: #fff;
+}
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+#s{
+	width: 1100px;
+	height: 150px;
+}
+.site-footer{
+	background-color: #222;
+	color:#fff;
+	margin-top:30px;
+	padding-top:30px;
+}
+.bottom-footer{
+	border-top:1px solid #b2b2b2;
+	margin-top:10px;
+	padding-top:10px;
+	color:#b2b2b2;
+}
+.footer-nav{
+	text-align:right;
+	list-style: none;
+}
+.footer-nav li{
+	display: inline;
+}
+.footer-nav li:not(:first-child):before{
+	content:'|';
+	padding:0px 10px;
+}
+.footer-nav a {
+	color:#b2b2b2;
+}
+.footer-nav a :hover
+{
+color: #fff;
+text-decoration: none;
+}
+#pull{
+	position: relative;
+	float: left;	
+}
+.wrapper{
+	width:1215px;
+	background:white;
+	margin:0 auto 0 auto;
+}
+.heading{
+	height:100px;
+	background:black;
+	padding:20px;
+}
+.navbar-brand{
+	height:20px;
+	float: center;
+	padding:90px;
+}
+#send{
+	padding:10px;
+	background-color:lightblue;
+	color:white;
+	font-size: 18px;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;	
+}
+.container-fluid{
+	height:15px;
+}
+
